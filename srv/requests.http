@@ -1,0 +1,17 @@
+### GET Employees
+GET http://localhost:4004/v2/service/demo/Employees
+
+### Call Function
+GET http://localhost:4004/v2/service/demo/updateEmployees?ID='de8b2cfb-d518-4979-86b6-5c193a7f48be'&name='Milton'&email='milton@sap.com'&department='Math'&dob='1974-03-07'
+
+
+### Call Function
+GET http://localhost:4004/v2/service/demo/updateEmployees?ID=guid'de8b2cfb-d518-4979-86b6-5c193a7f48be'&name='Monika'&email='milton@sap.com'&department='Math'&dob='1974-03-07'
+
+
+### Call Function
+GET http://localhost:4004/v2/service/demo/updateEmployees?ID='de8b2cfb-d518-4979-86b6-5c193a7f48be'&name='Monika'&email='monika@sap.com'&department='Math'&dob='1974-03-07'
+
+### Call Function
+GET http://localhost:4004/v2/service/demo/updateEmployees?ID='de8b2cfb-d518-4979-86b6-5c193a7f48be'&name='Milton'&email=1975&department='Math'&dob='1974-03-07'
+
