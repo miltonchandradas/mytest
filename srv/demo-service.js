@@ -20,6 +20,7 @@ module.exports = (srv) => {
   srv.on("serverStarted", async (msg) => {
     let { name } = msg.data;
 
+    console.log("Server Started event handler...");
     console.log(name);
   });
 
